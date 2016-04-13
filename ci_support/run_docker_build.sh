@@ -43,9 +43,6 @@ conda update --yes --all
 conda install --yes conda-build==1.18.2
 conda info
 
-# Temporary fix to install opengl drivers
-yum install -y mesa-libGL-devel
-
 # A better way to handle yum requirements.
 test -f "recipe_root/yum_requirements.txt" && (cat "recipe_root/yum_requirements.txt" | xargs -r yum install -y) || true
 
