@@ -46,6 +46,9 @@ conda info
 # Temporary fix to install opengl drivers
 yum install -y mesa-libGL-devel
 
+# A better way to handle yum requirements.
+test -f "recipe_root/yum_requirements.txt" && (cat "recipe_root/yum_requirements.txt" | xargs -r yum install -y) || true
+
 # Embarking on 3 case(s).
     set -x
     export CONDA_PY=27
