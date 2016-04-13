@@ -43,6 +43,9 @@ conda update --yes --all
 conda install --yes conda-build==1.18.2
 conda info
 
+# Temporary fix to install opengl drivers
+yum install -y mesa-libGL-devel
+
 # Embarking on 3 case(s).
     set -x
     export CONDA_PY=27
