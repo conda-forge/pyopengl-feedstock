@@ -5,7 +5,7 @@ Home: http://pyopengl.sourceforge.net
 
 Package license: BSD-like
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Standard OpenGL bindings for Python
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyopengl-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/pyopengl-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyopengl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyopengl-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyopengl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyopengl-feedstock/branch/master)

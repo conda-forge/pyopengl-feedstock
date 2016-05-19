@@ -1,0 +1,2 @@
+# Needed for obvious reasons
+mesa-libGL-devel
