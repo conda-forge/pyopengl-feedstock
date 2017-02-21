@@ -4,14 +4,14 @@
 language: generic
 
 os: osx
-osx_image: beta-xcode6.1
+osx_image: xcode6.4
 
 env:
   matrix:
     
     - CONDA_PY=27
-    - CONDA_PY=34
     - CONDA_PY=35
+    - CONDA_PY=36
   global:
     # The BINSTAR_TOKEN secure variable. This is defined canonically in conda-forge.yml.
     - secure: "C1zNii905zzFJWubXHYNgYgJpd/eUjeupgXxqKCHD1GD2G6GyEjdpZSP/TNx2WpKQ7Ap2B4uTd4VewyvQhrBzkjAIGnDMdZeM0l3eHV/bSk9f+LI7cBe3S2y1/imhUGKlIR0hbbMCscVxADep1h0mku/VR0bnFJYwhrv2fyI1HQR48Yrgv8yc3wcowRcmmViPdiUq1HPjt/X641iM5xBXyZuEooowyeSAsn6euKzgFyuixjdNGZDiVD16ar6fRLwNGBNEtCdqmSO9+2JzYyLOTKf5Zw9+2lBBpX58jrM8Z2rt2U/cpg9uEosZd8Bc0Nba/mFWZ1wgs0DXcb3px/zIBS1NRh07IPMibpHvE4HitRiYc0rM02l1DKPtlIWPXZtI/vZE6XlqkLm1PgHVlG2byCAN1IpxAarFrB7RYcvO1gvN3Y7DVGadMASeptMrQabIBl4F5grfjj9jhHUeMs1HW7XP6dKfvYPosW99f9UH/JG6nejj+m6d/BZV2tA56FNSXMRiL4Pny5v+xwYv6RF2moE+f/Zn+a3u2xhqMYJ+IB/tenlPMoAUB0QzOU2dtfwnJWQRkTcW/wZ9W0I0Nw52KhU7kBqyxodcncDTyLw6HBOwk+E17c3pPo+iLibubfrOAb8/QvkSa/d6M1kSevkLdv7sxgRiKVnOPXdWbkdPh0="
@@ -19,7 +19,7 @@ env:
 
 before_install:
     # Remove homebrew.
-    - brew remove --force $(brew list)
+    - brew remove --force --ignore-dependencies $(brew list)
     - brew cleanup -s
     - rm -rf $(brew --cache)
 
@@ -31,6 +31,8 @@ install:
       bash $MINICONDA_FILE -b
 
       source /Users/travis/miniconda3/bin/activate root
+      conda config --remove channels defaults
+      conda config --add channels defaults
       conda config --add channels conda-forge
       conda config --set show_channel_urls true
       conda install --yes --quiet conda-forge-build-setup
