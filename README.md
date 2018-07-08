@@ -14,14 +14,15 @@ Summary: Standard OpenGL bindings for Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyopengl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyopengl-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyopengl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyopengl-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyopengl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyopengl-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyopengl-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyopengl-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyopengl/badges/version.svg)](https://anaconda.org/conda-forge/pyopengl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyopengl/badges/downloads.svg)](https://anaconda.org/conda-forge/pyopengl)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyopengl-green.svg)](https://anaconda.org/conda-forge/pyopengl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyopengl.svg)](https://anaconda.org/conda-forge/pyopengl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyopengl.svg)](https://anaconda.org/conda-forge/pyopengl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyopengl.svg)](https://anaconda.org/conda-forge/pyopengl) |
 
 Installing pyopengl
 ===================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
