@@ -1,4 +1,4 @@
-{% set version = "3.1.3b2" %}
+{% set version = "3.1.4" %}
 
 package:
   name: pyopengl
@@ -7,14 +7,14 @@ package:
 source:
   fn: PyOpenGL-{{ version }}.tar.gz
   url: https://pypi.python.org/packages/source/P/PyOpenGL/PyOpenGL-{{ version }}.tar.gz
-  sha256: ac73b4c0b433be02d6a55b9ed768acf07003a92a3315ba9d62bc8f8da5f0c291
+  sha256: 0bdf5ed600df30c8830455702338902528717c0af85ac5914f1dc5aa0bfa6eee
   patches:
     - remove_redefinition_of_glGetBufferParameteriv-wrapper.patch
 
 build:
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
-  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 0
 
 requirements:
   host:
