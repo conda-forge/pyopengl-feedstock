@@ -8,8 +8,6 @@ source:
   fn: PyOpenGL-{{ version }}.tar.gz
   url: https://pypi.python.org/packages/source/P/PyOpenGL/PyOpenGL-{{ version }}.tar.gz
   sha256: 0bdf5ed600df30c8830455702338902528717c0af85ac5914f1dc5aa0bfa6eee
-  patches:
-    - remove_redefinition_of_glGetBufferParameteriv-wrapper.patch
 
 build:
   noarch: python
