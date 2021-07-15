@@ -18,10 +18,10 @@ requirements:
   host:
     - pip
     - setuptools
-    - python
+    - python >=2.7
 
   run:
-    - python
+    - python >=2.7
 
 test:
   imports:
