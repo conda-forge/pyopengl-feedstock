@@ -29,7 +29,7 @@ test:
 
 about:
   home: http://pyopengl.sourceforge.net
-  license: BSD-like
+  license: LicenseRef-pyopengl
   license_file: license.txt
   summary: Standard OpenGL bindings for Python
   doc_url: http://pyopengl.sourceforge.net/documentation/index.html
