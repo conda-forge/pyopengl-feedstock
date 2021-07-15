@@ -6,6 +6,6 @@ if [ `uname` == Linux ]; then
     rc=$?;
     if [[ $rc != 0 ]]; then
         echo Warning: Missing OpenGL driver, install with yum install mesa-libGL-devel or equivalent
-        exit 1
+        exit 0
     fi
 fi
