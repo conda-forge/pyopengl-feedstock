@@ -2,28 +2,28 @@ NOTE:
 
     THIS SOFTWARE IS NOT FAULT TOLERANT AND SHOULD NOT BE USED IN ANY
     SITUATION ENDANGERING HUMAN LIFE OR PROPERTY.
-    
+
 OpenGL-ctypes License
 
     Copyright (c) 2005-2014, Michael C. Fletcher and Contributors
     All rights reserved.
-    
+
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions
     are met:
-    
+
         Redistributions of source code must retain the above copyright
         notice, this list of conditions and the following disclaimer.
-    
+
         Redistributions in binary form must reproduce the above
         copyright notice, this list of conditions and the following
         disclaimer in the documentation and/or other materials
         provided with the distribution.
-    
+
         The name of Michael C. Fletcher, or the name of any Contributor,
-        may not be used to endorse or promote products derived from this 
+        may not be used to endorse or promote products derived from this
         software without specific prior written permission.
-    
+
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
     ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
     LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
@@ -35,7 +35,7 @@ OpenGL-ctypes License
     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
     STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
     ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
-    OF THE POSSIBILITY OF SUCH DAMAGE. 
+    OF THE POSSIBILITY OF SUCH DAMAGE.
 
 OpenGL-ctypes includes code from the PyOpenGL 2.x series licensed under
 version 3 of the PyOpenGL License (BSD-style):
@@ -46,7 +46,7 @@ version 3 of the PyOpenGL License (BSD-style):
     James Hugunin, Cambridge MA, USA, Thomas Schwaller, Munich, Germany
     and David Ascher, San Francisco CA, USA.
 
-    Contributors to the PyOpenGL project in addition to those listed 
+    Contributors to the PyOpenGL project in addition to those listed
     above include:
         * David Konerding
         * Soren Renner
@@ -68,7 +68,7 @@ version 3 of the PyOpenGL License (BSD-style):
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are
     met:
-    
+
     * Redistributions of source code must retain the above copyright
         notice, this list of conditions and the following disclaimer.
     * Redistributions in binary form must reproduce the above copyright
@@ -78,7 +78,7 @@ version 3 of the PyOpenGL License (BSD-style):
     * The names of the contributors may not be used to endorse or
         promote products derived from this software without specific prior
         written permission.
-    
+
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
     "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
     LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
@@ -92,19 +92,19 @@ version 3 of the PyOpenGL License (BSD-style):
     USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
     DAMAGE.
 
-OpenGL-ctypes includes code from the Pyglet project, licensed under the 
+OpenGL-ctypes includes code from the Pyglet project, licensed under the
 Pyglet License (BSD Style):
 
     Copyright (c) 2006-2008 Alex Holkner
     All rights reserved.
 
     Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions 
+    modification, are permitted provided that the following conditions
     are met:
-    
+
     * Redistributions of source code must retain the above copyright
        notice, this list of conditions and the following disclaimer.
-     * Redistributions in binary form must reproduce the above copyright 
+     * Redistributions in binary form must reproduce the above copyright
        notice, this list of conditions and the following disclaimer in
        the documentation and/or other materials provided with the
        distribution.
@@ -126,8 +126,8 @@ Pyglet License (BSD Style):
     ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
     POSSIBILITY OF SUCH DAMAGE.
 
-OpenGL-ctypes may include source code from the GLE (GL Tubing and Extrusion) library, which is 
-licensed under the license declared in OpenGL/DLLS/gle_COPYING.src if GLE is included in this 
+OpenGL-ctypes may include source code from the GLE (GL Tubing and Extrusion) library, which is
+licensed under the license declared in OpenGL/DLLS/gle_COPYING.src if GLE is included in this
 distribution.  Copyright notice follows:
 
     This software is owned by International Business Machines Corporation
@@ -136,34 +136,34 @@ distribution.  Copyright notice follows:
     nonexclusive license for the software.
 
 OpenGL-ctypes may include source code from FreeGLUT (GL Utility Toolkit) library,
-which is licensed under the MIT/X-Consortium License, available in 
+which is licensed under the MIT/X-Consortium License, available in
 OpenGL/DLLS/freeglut_COPYING.txt if FreeGLUT is included in this distribution:
 
-    Freeglut code without an explicit copyright is covered by the following 
+    Freeglut code without an explicit copyright is covered by the following
     copyright:
 
     Copyright (c) 1999-2000 Pawel W. Olszta. All Rights Reserved.
-    Permission is hereby granted, free of charge,  to any person obtaining a copy 
+    Permission is hereby granted, free of charge,  to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction,  including without limitation the rights 
-    to use, copy,  modify, merge,  publish, distribute,  sublicense,  and/or sell 
+    in the Software without restriction,  including without limitation the rights
+    to use, copy,  modify, merge,  publish, distribute,  sublicense,  and/or sell
     copies or substantial portions of the Software.
 
-    The above  copyright notice  and this permission notice  shall be included in 
+    The above  copyright notice  and this permission notice  shall be included in
     all copies or substantial portions of the Software.
 
-    THE SOFTWARE  IS PROVIDED "AS IS",  WITHOUT WARRANTY OF ANY KIND,  EXPRESS OR 
-    IMPLIED,  INCLUDING  BUT  NOT LIMITED  TO THE WARRANTIES  OF MERCHANTABILITY, 
-    FITNESS  FOR  A PARTICULAR PURPOSE  AND NONINFRINGEMENT.  IN  NO EVENT  SHALL 
-    PAWEL W. OLSZTA BE LIABLE FOR ANY CLAIM,  DAMAGES OR OTHER LIABILITY, WHETHER 
-    IN  AN ACTION  OF CONTRACT,  TORT OR OTHERWISE,  ARISING FROM,  OUT OF  OR IN 
+    THE SOFTWARE  IS PROVIDED "AS IS",  WITHOUT WARRANTY OF ANY KIND,  EXPRESS OR
+    IMPLIED,  INCLUDING  BUT  NOT LIMITED  TO THE WARRANTIES  OF MERCHANTABILITY,
+    FITNESS  FOR  A PARTICULAR PURPOSE  AND NONINFRINGEMENT.  IN  NO EVENT  SHALL
+    PAWEL W. OLSZTA BE LIABLE FOR ANY CLAIM,  DAMAGES OR OTHER LIABILITY, WHETHER
+    IN  AN ACTION  OF CONTRACT,  TORT OR OTHERWISE,  ARISING FROM,  OUT OF  OR IN
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-    Except as contained in this notice,  the name of Pawel W. Olszta shall not be 
-    used  in advertising  or otherwise to promote the sale, use or other dealings 
+    Except as contained in this notice,  the name of Pawel W. Olszta shall not be
+    used  in advertising  or otherwise to promote the sale, use or other dealings
     in this Software without prior written authorization from Pawel W. Olszta.
 
-OpenGL-ctypes may include binary distributions of the Tk Togl widget, which is licensed under the 
+OpenGL-ctypes may include binary distributions of the Tk Togl widget, which is licensed under the
 following license/copyright notice (available in OpenGL/Tk/*/LICENSE if Togl is included).
 
     This software is copyrighted by Brian Paul (brian@mesa3d.org),
@@ -201,7 +201,7 @@ Licensed), Copyright (c) 2012 Xu, Yuan <xuyuan.cn@gmail.com>:
     https://github.com/xuyuan/PyOSMesa
     http://opensource.org/licenses/MIT
 
-OpenGL-ctypes uses a table from the Chromium Regal project to provide 
+OpenGL-ctypes uses a table from the Chromium Regal project to provide
 constant:array-size mappings.  Regal is:
 
     Copyright (c) 2011-2012 NVIDIA Corporation
