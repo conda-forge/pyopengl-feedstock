@@ -27,7 +27,6 @@ conda-build:
  root-dir: ${FEEDSTOCK_ROOT}/build_artifacts
 
 CONDARC
-BUILD_CMD=build
 
 
 mamba install --update-specs --yes --quiet --channel conda-forge \
@@ -50,6 +49,7 @@ source run_conda_forge_build_setup
 
 # make the build number clobber
 make_build_number "${FEEDSTOCK_ROOT}" "${RECIPE_ROOT}" "${CONFIG_FILE}"
+
 
 
 ( endgroup "Configuring conda" ) 2> /dev/null
