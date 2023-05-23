@@ -1,11 +1,11 @@
-About pyopengl
-==============
+About pyopengl-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyopengl-feedstock/blob/main/LICENSE.txt)
 
 Home: http://pyopengl.sourceforge.net
 
 Package license: LicenseRef-pyopengl
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyopengl-feedstock/blob/main/LICENSE.txt)
 
 Summary: Standard OpenGL bindings for Python
 
