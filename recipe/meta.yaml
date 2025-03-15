@@ -1,7 +1,8 @@
+{% set name = "pyopengl" %}
 {% set version = "3.1.9" %}
 
 package:
-  name: pyopengl
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
