@@ -1,15 +1,12 @@
-{% set version = "3.1.7" %}
+{% set version = "3.1.9" %}
 
 package:
   name: pyopengl
   version: {{ version }}
 
 source:
-  url: https://pypi.python.org/packages/source/P/PyOpenGL/PyOpenGL-{{ version }}.tar.gz
-  sha256: eef31a3888e6984fd4d8e6c9961b184c9813ca82604d37fe3da80eb000a76c86
-  patches:
-    # https://github.com/mcfletch/pyopengl/commit/b4e6cc6ede33166419f5bd495a556be8511435ad
-    - better_fallback_for_gl.patch
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 28ebd82c5f4491a418aeca9672dffb3adbe7d33b39eada4548a5b4e8c03f60c8
 
 build:
   noarch: python
