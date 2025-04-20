@@ -149,5 +149,6 @@ Feedstock Maintainers
 
 * [@almarklein](https://github.com/almarklein/)
 * [@mcfletch](https://github.com/mcfletch/)
+* [@psobolewskiPhD](https://github.com/psobolewskiPhD/)
 * [@tadeu](https://github.com/tadeu/)
 
