@@ -11,11 +11,14 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
-  number: 0
+  script: |
+    {{ PYTHON }} -m build --wheel
+    {{ PYTHON }} -m pip install dist/*.whl --no-deps -vv
+  number: 1
 
 requirements:
   host:
+    - build
     - pip
     - setuptools
     - python {{ python_min }}
