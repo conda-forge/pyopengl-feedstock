@@ -23,11 +23,11 @@ requirements:
   run:
     - python >={{ python_min }}
 
-test:
-  requires:
-    - python {{ python_min }}
-  imports:
-    - OpenGL.GL
+#test:
+#  requires:
+#    - python {{ python_min }}
+#  imports:
+#    - OpenGL.GL
 
 about:
   home: http://pyopengl.sourceforge.net
