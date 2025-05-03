@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: |
-    {{ PYTHON }} -m build --wheel
+    {{ PYTHON }} -m build --wheel --no-isolation -x
     {{ PYTHON }} -m pip install dist/*.whl --no-deps -vv
   number: 1
 
