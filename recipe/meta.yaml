@@ -21,7 +21,11 @@ requirements:
     - python {{ python_min }}
 
   run:
+    - __{{ noarch_platform }}
     - python >={{ python_min }}
+    {% if noarch_platform == 'linux' %}
+    - libopengl-devel
+    {% endif %}
 
 test:
   requires:
