@@ -1,5 +1,5 @@
 {% set name = "pyopengl" %}
-{% set version = "3.1.9" %}
+{% set version = "3.1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 28ebd82c5f4491a418aeca9672dffb3adbe7d33b39eada4548a5b4e8c03f60c8
+  sha256: c4a02d6866b54eb119c8e9b3fb04fa835a95ab802dd96607ab4cdb0012df8335
 
 build:
   noarch: python
