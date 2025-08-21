@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -21,7 +21,11 @@ requirements:
     - python {{ python_min }}
 
   run:
+    - __{{ noarch_platform }}
     - python >={{ python_min }}
+    {% if noarch_platform == 'linux' %}
+    - libopengl-devel
+    {% endif %}
 
 test:
   requires:
@@ -44,3 +48,4 @@ extra:
     - mcfletch
     - tadeu
     - psobolewskiPhD
+    - pauldmccarthy
