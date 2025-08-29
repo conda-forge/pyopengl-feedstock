@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
@@ -21,11 +21,11 @@ requirements:
     - python {{ python_min }}
 
   run:
-    - __{{ noarch_platform }}
+    - __linux   # [linux]
+    - __osx     # [osx]
+    - __win     # [win]
     - python >={{ python_min }}
-    {% if noarch_platform == 'linux' %}
-    - libopengl-devel
-    {% endif %}
+    - libopengl-devel    # [linux]
 
 test:
   requires:
